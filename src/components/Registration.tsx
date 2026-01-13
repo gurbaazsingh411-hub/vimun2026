@@ -86,8 +86,6 @@ export function Registration() {
           <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8">
             {[
               { date: 'Jan 15', event: 'Registrations Open' },
-              { date: 'Apr 15', event: 'Early Bird Deadline' },
-              { date: 'May 1', event: 'Registrations Close' },
               { date: 'May 9–10', event: 'Conference Days' },
             ].map((item, index) => (
               <div key={item.event} className="flex items-center gap-4">
@@ -95,7 +93,7 @@ export function Registration() {
                   <div className="text-primary font-bold text-lg">{item.date}</div>
                   <div className="text-muted-foreground text-sm">{item.event}</div>
                 </div>
-                {index < 3 && (
+                {index < 1 && (
                   <div className="hidden md:block w-12 h-px bg-gradient-to-r from-primary/50 to-primary/10" />
                 )}
               </div>
