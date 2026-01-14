@@ -110,16 +110,6 @@ export function WhyVimun() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
-                name: "Atharva",
-                role: "Co-founder",
-                image: "/team/co-founder-atharva.jpg",
-              },
-              {
-                name: "Director General",
-                role: "Co-founder",
-                image: "/team/director-general-co-founder.jpg",
-              },
-              {
                 name: "Gatik",
                 role: "Chief Advisor",
                 image: "/team/gatik-chief-advisor.jpg",
@@ -128,6 +118,16 @@ export function WhyVimun() {
                 name: "Rishabh",
                 role: "Co-founder",
                 image: "/team/rishabh-cofounder.jpg",
+              },
+              {
+                name: "Atharva",
+                role: "Co-founder",
+                image: "/team/co-founder-atharva.jpg",
+              },
+              {
+                name: "Harman",
+                role: "Co-founder",
+                image: "/team/director-general-co-founder.jpg",
               },
             ].map((member, index) => (
               <div key={member.name} className="text-center group">
