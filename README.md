@@ -1,73 +1,59 @@
-# Welcome to your Lovable project
+# VIMUN Connect
 
-## Project info
+Official website for **VIMUN 2026** (Vallabh International Model United Nations).
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## Project Overview
 
-## How can I edit this code?
+VIMUN Connect is the digital gateway for the VIMUN 2026 conference, providing delegates and visitors with information about committees, agendas, registration details, and the organizing team.
 
-There are several ways of editing your application.
+### Key Features
 
-**Use Lovable**
+- **Committees & Agendas**: Detailed information about 7 specialized committees including UNSC, AIPPM, global and historical simulations.
+- **Registration Portal**: Integrated registration information for delegates and IPL teams including fee structures.
+- **Partner Showcase**: Highlighting our intellectual and technical partners (PAL College, DevX, Tiranga Organisation).
+- **Team Section**: Introducing the leadership and visionaries behind VIMUN.
+- **Responsive Design**: Built with a mobile-first approach using Tailwind CSS.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+This project is built with modern web technologies:
 
-**Use your preferred IDE**
+- [Vite](https://vitejs.dev/) - specialized build tool
+- [TypeScript](https://www.typescriptlang.org/) - for type safety
+- [React](https://react.dev/) - UI library
+- [shadcn/ui](https://ui.shadcn.com/) - Reusable components
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [Framer Motion](https://www.framer.com/motion/) - For animations
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+To run this project locally:
 
-Follow these steps:
+1. **Clone the repository**
+   ```bash
+   git clone <YOUR_GIT_URL>
+   cd vimun-connect-main
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   bun install
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+3. **Start the development server**
+   ```bash
+   npm run dev
+   # or
+   bun dev
+   ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+4. Open http://localhost:8080 to view it in the browser.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## Deployment
 
-**Edit a file directly in GitHub**
+This project is optimized for deployment on platforms like Netlify, Vercel, or Lovable.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+*Collaborating for Excellence*
